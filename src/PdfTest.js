@@ -30,7 +30,7 @@ function PdfFire({RouteName, PdfPath}) {
   }, []);
      
   let pUrl = 0
-        console.log("BROOO");
+
         for (let index = 0; index < imgURL.length; index++) {
           if (imgURL[index].includes(PdfPath)){
             pUrl = index;
@@ -38,7 +38,7 @@ function PdfFire({RouteName, PdfPath}) {
         }
 
   // console.log('PDF URLL', String(temp));
-  console.log('IMGG URLLlll', typeof (imgURL[0]))
+
   return (
       <div>
       <PdfView routeName= {RouteName} pdfName={imgURL[pUrl]}></PdfView>
