@@ -38,7 +38,7 @@ function PdfFire({RouteName, PdfPath}) {
         }
 
   // console.log('PDF URLL', String(temp));
-  console.log('IMGG URLL', typeof (imgURL[0]))
+  console.log('IMGG URLLlll', typeof (imgURL[0]))
   return (
       <div>
       <PdfView routeName= {RouteName} pdfName={imgURL[pUrl]}></PdfView>
