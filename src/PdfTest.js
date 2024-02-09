@@ -30,7 +30,7 @@ function PdfFire({RouteName, PdfPath}) {
   }, []);
      
   let pUrl = 0
-
+console.log("BROO")
         for (let index = 0; index < imgURL.length; index++) {
           if (imgURL[index].includes(PdfPath)){
             pUrl = index;
