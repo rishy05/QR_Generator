@@ -18,7 +18,7 @@ const PdfView = ({routeName, pdfName}) => {
       <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.js">
           <div
               style={{
-                  height: '1500px',
+                  height: '1700px',
                   width: '900px',
                   marginLeft: 'auto',
                   marginRight: 'auto',
