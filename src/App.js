@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <PdfFire RouteName='sunshine' PdfPath='sunshine'/>
+      <PdfFire RouteName='AAZHI PAPER CUPS' PdfPath='AAZHI PAPER CUPS'/>
 
     </div>
   );
