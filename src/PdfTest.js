@@ -7,6 +7,7 @@ import { imageDb } from './FireBase';
 function PdfFire({RouteName, PdfPath}) {
   const [imgURL, setImgURL] = useState([]);
 
+
   useEffect(() => {
     listAll(ref(imageDb, 'pdf'))
       .then(imgs => {
@@ -44,7 +45,6 @@ function PdfFire({RouteName, PdfPath}) {
       <PdfView routeName= {RouteName} pdfName={imgURL[pUrl]}/>
 
       </div>
-
   );
 }
 
