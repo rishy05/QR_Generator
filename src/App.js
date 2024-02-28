@@ -1,6 +1,7 @@
 //app.js
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import './App.css';
+import './Aazhi.css'
 import PdfFire from './PdfTest';
 import Navbar from "./aazhi/components/Navbar";
 import Header from "./aazhi/components/Header";
@@ -32,6 +33,13 @@ function App() {
       <Footer />
       </Route>
       </Switch>
+      </Router>
+      <Router>
+        <Switch>
+          <Route exact path ='/jeevas-enterprises/certificate'>
+            <PdfFire PdfPath = 'jeevas'/>
+          </Route>
+        </Switch>
       </Router>
 
     </div>
