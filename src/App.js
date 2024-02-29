@@ -42,6 +42,14 @@ function App() {
         </Switch>
       </Router>
 
+      <Router>
+        <Switch>
+          <Route exact path ='/murugan-paper-cup/certificate'>
+            <PdfFire PdfPath = 'murugan'/>
+          </Route>
+        </Switch>
+      </Router>
+
     </div>
   );
 }
